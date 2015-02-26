@@ -1,0 +1,15 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+
+    <!-- login -->
+    <dimen name="pd_left">10dp</dimen>
+    <dimen name="pd_right">10dp</dimen>
+    <dimen name="edt_width">45dp</dimen>
+    <dimen name="edt_height">45dp</dimen>
+    <dimen name="btn_login">85dp</dimen>
+    <dimen name="s_line">1dp</dimen>
+</resources>

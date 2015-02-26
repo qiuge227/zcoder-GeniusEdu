@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">天才少年测试版</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- 接口 -->
+    <string name="interface_upload_logininfo">http://www.tiancaisn.com/GeniusEdu/student.do?method=numberLogin</string>
+    <string name="interface_upload_loginbynameinfo">http://www.tiancaisn.com/GeniusEdu/student.do?method=nameLogin</string>
+    <string name="interface_upload_password">http://www.tiancaisn.com/GeniusEdu/student.do?method=updatePassword</string>
+    <string name="interface_download_stuinfo">http://www.tiancaisn.com/GeniusEdu/student.do?method=getStuInfoByNo</string>
+    <string name="interface_upload_guardianinfo">http://www.tiancaisn.com/GeniusEdu/parent.do?method=addParent</string>
+    <string name="interface_download_guardianinfo">http://www.tiancaisn.com/GeniusEdu/parent.do?method=getParentInfo</string>
+    <string name="interface_upload_integral">http://www.tiancaisn.com/GeniusEdu/card.do?method=updatePoints</string>
+    <string name="interface_download_school">http://www.tiancaisn.com/GeniusEdu/school.do?method=getSchoolName</string>
+    <string name="interface_upload_picture">http://www.tiancaisn.com/GeniusEdu/parent.do?method=upload</string>
+    <string name="interface_upload_stupicture">http://www.tiancaisn.com/GeniusEdu/student.do?method=upload</string>
+    <string name="interface_download_class">http://www.tiancaisn.com/GeniusEdu/school.do?method=getClassName</string>
+    <string name="interface_upload_stuinfo">http://www.tiancaisn.com/GeniusEdu/student.do?method=updateStudent</string>
+    <string name="ipout">http://qiuge227.jsp.78host.com/GeniusEdu/</string>
+    <string name="ipin">http://192.168.1.112:8080/GeniusEdu/</string>
+    <string name="sure_bt">确定</string>
+    <string name="login">登录</string>
+    <string name="regist">注册</string>
+    <string name="forgetpassword">忘记密码</string>
+    <string name="username">输入姓名或者学籍号</string>
+    <string name="password">输入密码</string>
+    <string name="recordpassword">"记住密码"</string>
+    <string name="autologin">自动登录</string>
+
+    <drawable name="white">#00000000</drawable>
+
+    <string name="relogin">退出登录</string>
+    <string name="selecteschool">请选择学校</string>
+    <string name="scan_text">请将方框对准二维码进行扫描.</string>
+    <string name="init">正在加载...</string>
+    <string name="pushparents">上滑查看家长信息</string>
+    <string name="oldpassword">原始密码:</string>
+    <string name="newpassword">新的密码:</string>
+    <string name="yespassword">确认密码:</string>
+    <string name="changepassword">修改密码</string>
+    <string name="changemyinfo">修改我的信息</string>
+    <string name="bt_yes">确定</string>
+    <string name="exit">退出？</string>
+    <string name="samename">发现同名同姓</string>
+    <string name="myinfo">我的信息</string>
+    <string name="parentsinfo">家长信息</string>
+    <string name="bt_save">保存</string>
+    <string name="scanning_title">二维码卡片扫描</string>
+    
+    <string name="login_txt">天才少年，让父母更放心！</string>
+</resources>

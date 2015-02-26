@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/txtln"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@+id/delete"
+        android:layout_toRightOf="@+id/img_userpicture"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/username"
+            style="?android:attr/dropDownItemStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:textSize="@dimen/textcontentsize" />
+
+        <TextView
+            android:id="@+id/userid"
+            style="?android:attr/dropDownItemStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmallInverse"
+            android:textSize="@dimen/bttextsize" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_userpicture"
+        android:layout_width="@dimen/password_height"
+        android:layout_height="@dimen/password_height"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/tutu" />
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/txtln"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/txtln"
+        android:src="@drawable/xicon" />
+
+</RelativeLayout>

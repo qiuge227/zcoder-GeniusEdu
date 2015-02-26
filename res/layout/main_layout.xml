@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/content_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/content_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/content_bar"
+            android:gravity="center"
+            android:padding="@dimen/title_pd"
+            android:text="@string/myinfo"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titlesize" />
+
+        <LinearLayout
+            android:id="@+id/stuinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imginfo"
+            android:orientation="vertical"
+            android:padding="@dimen/mag_main_stuinfo" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/pd_ch_editext" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名："
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textcontentsize" />
+
+                <TextView
+                    android:id="@+id/student_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/init"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/titlesize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/pd_ch_editext" >
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="出生："
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textcontentsize" />
+
+                <TextView
+                    android:id="@+id/student_birth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     android:text="@string/init"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/titlesize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/pd_ch_editext" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="学号："
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textcontentsize" />
+
+                <TextView
+                    android:id="@+id/student_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     android:text="@string/init"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textcontentsize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/pd_ch_editext" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="学校："
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textcontentsize" />
+
+                <TextView
+                    android:id="@+id/schoolname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                  android:text="@string/init"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/titlesize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/pd_ch_editext" >
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="班级："
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textcontentsize" />
+
+                <TextView
+                    android:id="@+id/student_class"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     android:text="@string/init"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/titlesize" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/imginfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView9" >
+
+            <ImageView
+                android:id="@+id/student_picture"
+                android:layout_width="@dimen/picture_dp"
+                android:layout_height="@dimen/picture_dp"
+                android:layout_marginLeft="@dimen/mag_main_picture_l"
+                android:layout_marginTop="@dimen/mag_main_picture_t"
+                android:src="@drawable/picture" />
+
+            <LinearLayout
+                android:id="@+id/level"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/student_picture"
+                android:layout_marginLeft="@dimen/mag_main_level_l"
+                android:layout_marginRight="@dimen/mag_main_level_r"
+                android:layout_toRightOf="@+id/student_picture"
+                android:background="@drawable/editext_red"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="优秀等级："
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textcontentsize" />
+
+                <TextView
+                    android:id="@+id/pointslevel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="000"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textcontentsize" />
+
+                <ImageView
+                    android:id="@+id/scanningpoint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:src="@drawable/add_bt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/level"
+                android:layout_alignLeft="@+id/level"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/level"
+                android:background="@color/translate"
+                android:gravity="bottom"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/translate"
+                    android:gravity="right"
+                    android:text="天才值:"
+                    android:textSize="@dimen/bttextsize"
+                    android:textColor="@color/textred" />
+
+                <TextView
+                    android:id="@+id/student_points"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/translate"
+                    android:gravity="center|left"
+                    android:singleLine="true"
+                    android:text="0000"
+                    android:textColor="@color/textyellow"
+                    android:textSize="@dimen/pointsize" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/changepassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/mag_main_changepassword_bom"
+            android:text="修改密码?"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textcontentsize"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/relogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/mag_ch_bt_bom"
+            android:background="@drawable/btn_bg"
+            android:paddingBottom="@dimen/bt_pb"
+            android:paddingLeft="@dimen/bt_pl"
+            android:paddingRight="@dimen/bt_pr"
+            android:paddingTop="@dimen/bt_pt"
+            android:text="@string/relogin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/bttextsize" />
+
+        <LinearLayout
+            android:id="@+id/btn_mapnetwork"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView9"
+            android:background="@color/lightBlack"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:visibility="visible" >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/ic_dialog_info" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:gravity="center|left"
+                android:text="网络无连接，请检查网络状态！"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textcontentsize" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

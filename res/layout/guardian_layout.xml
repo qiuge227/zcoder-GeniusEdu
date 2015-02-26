@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/content_bg" >
+
+    <RelativeLayout
+        android:id="@+id/top_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/content_bar"
+            android:gravity="center"
+            android:padding="@dimen/title_pd"
+            android:text="爸爸妈妈"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titlesize"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/pd_ch_editext"
+            android:padding="5dp"
+            android:src="@drawable/backdown" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_bar"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="@dimen/pd_gu_relativeLayout1" >
+
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="@dimen/picture_dp1"
+            android:layout_height="@dimen/picture_dp1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/mag_gu_picture"
+            android:background="@drawable/tutu"
+            android:src="@drawable/picture" />
+
+        <TextView
+            android:id="@+id/picturetextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/mag_gu_picturetextview"
+            android:layout_toLeftOf="@+id/picture"
+            android:text="设置图像："
+            android:textSize="@dimen/textcontentsize" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/relativeLayout1"
+        android:orientation="vertical"
+        android:padding="@dimen/pd_gu_relativeLayout1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/pd_ch_editext" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:gravity="right|center_vertical"
+                android:text="家庭住址: "
+                android:textSize="@dimen/textcontentsize" />
+
+            <EditText
+                android:id="@+id/fly_address"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/mag_gu_address"
+                android:layout_weight="4.5"
+                android:background="@drawable/edittext_bg"
+                android:ems="10"
+                android:maxLines="2"
+                android:textSize="@dimen/textcontentsize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="@dimen/pd_ch_editext" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="爸爸姓名: "
+                android:textSize="@dimen/textcontentsize" />
+
+            <EditText
+                android:id="@+id/dadname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4.5"
+                android:background="@drawable/edittext_bg"
+                android:ems="10"
+                android:singleLine="true"
+                android:textSize="@dimen/textcontentsize" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="@dimen/pd_ch_editext" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="电话: "
+                android:textSize="@dimen/textcontentsize" />
+
+            <EditText
+                android:id="@+id/dadphone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4.5"
+                android:background="@drawable/edittext_bg"
+                android:ems="10"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:textSize="@dimen/textcontentsize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="@dimen/pd_ch_editext" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="妈妈姓名: "
+                android:textSize="@dimen/textcontentsize" />
+
+            <EditText
+                android:id="@+id/momname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4.5"
+                android:background="@drawable/edittext_bg"
+                android:ems="10"
+                android:singleLine="true"
+                android:textSize="@dimen/textcontentsize" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:padding="@dimen/pd_ch_editext" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="电话: "
+                android:textSize="@dimen/textcontentsize" />
+
+            <EditText
+                android:id="@+id/momphone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4.5"
+                android:background="@drawable/edittext_bg"
+                android:ems="10"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:textSize="@dimen/textcontentsize" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/saveinfo_bt"
+        android:layout_width="@dimen/bt_wight"
+        android:layout_height="@dimen/bt_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/mag_ch_bt_bom"
+        android:background="@drawable/bt"
+        android:paddingBottom="@dimen/bt_pb"
+        android:paddingLeft="@dimen/bt_pl"
+        android:paddingRight="@dimen/bt_pr"
+        android:paddingTop="@dimen/bt_pt"
+        android:text="保存信息"
+        android:textColor="@color/black"
+        android:textSize="@dimen/bttextsize" />
+
+</RelativeLayout>

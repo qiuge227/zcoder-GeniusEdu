@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/content_bg" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/top_bar"
+        android:gravity="center" >
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="@dimen/mag_school_spinner_w"
+            android:layout_height="@dimen/mag_school_spinner_h"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/mag_school_spinner1_t"
+            android:background="@drawable/spinner_bt"
+            android:gravity="center"
+            android:padding="0dp"
+            android:spinnerMode="dropdown" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="@dimen/mag_school_spinner_w"
+            android:layout_height="@dimen/mag_school_spinner_h"
+            android:layout_alignLeft="@+id/spinner1"
+            android:layout_below="@+id/spinner1"
+            android:layout_marginTop="@dimen/mag_school_spinner2_t"
+            android:background="@drawable/spinner_bt"
+            android:gravity="center"
+            android:padding="0dp"
+            android:spinnerMode="dropdown" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="@dimen/mag_school_spinner_w"
+            android:layout_height="@dimen/mag_school_spinner_h"
+            android:layout_alignLeft="@+id/spinner2"
+            android:layout_below="@+id/spinner2"
+            android:layout_marginTop="@dimen/mag_school_spinner3_t"
+            android:background="@drawable/spinner_bt"
+            android:gravity="center"
+            android:padding="0dp"
+            android:spinnerMode="dropdown" />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="@dimen/mag_school_spinner_w"
+            android:layout_height="@dimen/mag_school_spinner_h"
+            android:layout_alignLeft="@+id/spinner2"
+            android:layout_below="@+id/spinner3"
+            android:layout_marginTop="@dimen/mag_school_spinner3_t"
+            android:background="@drawable/spinner_bt"
+            android:gravity="center"
+            android:padding="0dp"
+            android:spinnerMode="dropdown" />
+
+        <Button
+            android:id="@+id/showselect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/mag_ch_bt_bom"
+            android:background="@drawable/bt"
+            android:paddingBottom="@dimen/bt_pb"
+            android:paddingLeft="@dimen/bt_pl"
+            android:paddingRight="@dimen/bt_pr"
+            android:paddingTop="@dimen/bt_pt"
+            android:text="@string/bt_yes"
+            android:textColor="@color/black"
+            android:textSize="@dimen/bttextsize" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/top_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/schoolname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/content_bar"
+            android:gravity="center"
+            android:padding="@dimen/title_pd"
+            android:text="@string/changemyinfo"
+            android:textColor="@color/white"
+            android:textSize="@dimen/titlesize" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/pd_ch_editext"
+            android:padding="5dp"
+            android:src="@drawable/back_48" />
+    </RelativeLayout>
+
+</RelativeLayout>

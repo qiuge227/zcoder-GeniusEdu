@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/edittext_bg" >
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/content_bar"
+        android:drawableLeft="@drawable/logo"
+        android:gravity="center|left"
+        android:text="机会卡信息"
+        android:textColor="@color/white"
+        android:textSize="@dimen/titlesize" />
+
+    <TextView
+        android:id="@+id/cardnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dialog_title"
+        android:layout_below="@+id/dialog_title"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="31dp"
+        android:text="卡片编号：A001008"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textcontentsize" />
+
+    <TextView
+        android:id="@+id/cardpoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cardnumber"
+        android:layout_below="@+id/cardnumber"
+        android:layout_marginTop="25dp"
+        android:text="随机积分：(10~100)分"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textcontentsize" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dialog_title"
+        android:layout_alignRight="@+id/dialog_title"
+        android:layout_below="@+id/cardpoints"
+        android:layout_marginTop="26dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/dialog_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_bt"
+            android:text="取消"
+            android:textColor="@color/white"
+            android:textSize="@dimen/bttextsize" />
+
+        <Button
+            android:id="@+id/dialog_yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dialog_bt"
+            android:text="添加"
+            android:textColor="@color/white"
+            android:textSize="@dimen/bttextsize" />
+    </LinearLayout>
+
+</RelativeLayout>

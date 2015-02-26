@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="@drawable/list_blue_single" >
+
+    <TextView
+        android:id="@+id/stu_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/stu_number"
+        android:layout_below="@+id/stu_number"
+        android:layout_marginTop="21dp"
+        android:text="卞卞"
+        android:textColor="@color/barColor"
+        android:textSize="@dimen/textcontentsize" />
+
+    <TextView
+        android:id="@+id/stu_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/stu_name"
+        android:layout_alignBottom="@+id/stu_name"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="44dp"
+        android:text="小学二年级5班"
+        android:textColor="@color/barColor"
+        android:textSize="@dimen/textcontentsize" />
+
+    <TextView
+        android:id="@+id/stu_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="L775242021021"
+        android:textColor="@color/barColor"
+        android:textSize="@dimen/textcontentsize" />
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <!-- login -->
+    <dimen name="password_width">215dp</dimen>
+    <dimen name="password_height">40dp</dimen>
+    <dimen name="loginbt_width">150dp</dimen>
+    <dimen name="loginbt_height">40dp</dimen>
+    <dimen name="loginbt_mabottom">50dp</dimen>
+    <dimen name="loginimg_matop">20dp</dimen>
+    <dimen name="picture_dp">110dp</dimen>
+    <dimen name="picture_dp1">80dp</dimen>
+    <!-- textsize -->
+    <dimen name="titlesize">20sp</dimen>
+    <dimen name="textcontentsize">18sp</dimen>
+    <dimen name="pointsize">50sp</dimen>
+    <dimen name="bttextsize">16sp</dimen>
+
+    <!-- btpanding -->
+    <dimen name="bt_pb">10dp</dimen>
+    <dimen name="bt_pl">40dp</dimen>
+    <dimen name="bt_pr">40dp</dimen>
+    <dimen name="bt_pt">80dp</dimen>
+
+    <!-- panding -->
+    <dimen name="pd_ch_pd">10dp</dimen>
+    <dimen name="pd_ch_editext">5dp</dimen>
+    <dimen name="pd_gu_relativeLayout1">10dp</dimen>
+    <dimen name="mag_main_stuinfo">30dp</dimen>
+    <dimen name="pd_login_edit_r">45dp</dimen>
+    <!-- margin -->
+    <dimen name="mag_ch_pd_top">50dp</dimen>
+    <dimen name="mag_ch_bt_bom">35dp</dimen>
+    <dimen name="mag_gu_picturetextview">25dp</dimen>
+    <dimen name="mag_gu_picture">60dp</dimen>
+    <dimen name="mag_lg_backapp">20dp</dimen>
+    <dimen name="mag_lg_login_ed_layout">20dp</dimen>
+    <dimen name="mag_lg_selecteschool">10dp</dimen>
+    <dimen name="mag_lg_password">18dp</dimen>
+    <dimen name="mag_lg_bt_bom">45dp</dimen>
+    <dimen name="mag_main_picture_l">10dp</dimen>
+    <dimen name="mag_main_picture_t">10dp</dimen>
+    <dimen name="mag_main_level_l">10dp</dimen>
+    <dimen name="mag_main_level_r">10dp</dimen>
+    <dimen name="mag_main_changepassword_bom">15dp</dimen>
+    <dimen name="mag_school_spinner1_t">35dp</dimen>
+    <dimen name="mag_school_spinner2_t">35dp</dimen>
+    <dimen name="mag_school_spinner3_t">35dp</dimen>
+    <dimen name="mag_selectpic_btn_take_photo_t">10dp</dimen>
+    <dimen name="mag_selectpic_btn_pick_photo_t">10dp</dimen>
+    <dimen name="mag_selectpic_btn_cancel_t">10dp</dimen>
+    <dimen name="mag_lg_idname_t">110dp</dimen>
+    <!-- titlepad -->
+    <dimen name="title_pd">10dp</dimen>
+
+    <!-- height -->
+    <dimen name="mag_gu_address">70dp</dimen>
+    <dimen name="mag_main_level">40dp</dimen>
+    <dimen name="mag_school_spinner_h">35dp</dimen>
+    <dimen name="mag_selectpic_h">40dp</dimen>
+    <dimen name="bt_height">40dp</dimen>
+    <dimen name="login_img_h">300dp</dimen>
+
+    <!-- wight -->
+    <dimen name="bt_wight">120dp</dimen>
+    <dimen name="mag_school_spinner_w">235dp</dimen>
+    <dimen name="mag_selectpic_w">40dp</dimen>
+    
+    <!-- login -->
+    <dimen name="pd_left">10dp</dimen>
+    <dimen name="pd_right">10dp</dimen>
+    <dimen name="edt_width">45dp</dimen>
+    <dimen name="edt_height">45dp</dimen>
+    <dimen name="btn_login">45dp</dimen>
+    <dimen name="s_line">1dp</dimen>
+
+</resources>
